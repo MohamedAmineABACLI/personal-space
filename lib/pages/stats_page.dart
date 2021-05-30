@@ -1,6 +1,7 @@
 import 'package:budget_tracker_ui/json/day_month.dart';
 import 'package:budget_tracker_ui/theme/colors.dart';
 import 'package:budget_tracker_ui/widget/chart.dart';
+// ignore: unused_import
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
@@ -29,15 +30,15 @@ class _StatsPageState extends State<StatsPage> {
     List expenses = [
       {
         "icon": Icons.arrow_back,
-        "color": blue,
-        "label": "Income",
-        "cost": "\$6593.75"
+        "color": green,
+        "label": "Revenue",
+        "cost": "\MAD 6593.75"
       },
       {
         "icon": Icons.arrow_forward,
-        "color": red,
-        "label": "Expense",
-        "cost": "\$2645.50"
+        "color": Colors.red,
+        "label": "Dépense",
+        "cost": "\MAD 2645.50"
       }
     ];
     return SingleChildScrollView(
@@ -61,7 +62,7 @@ class _StatsPageState extends State<StatsPage> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        "Stats",
+                        "Statuts",
                         style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.bold,
@@ -157,7 +158,7 @@ class _StatsPageState extends State<StatsPage> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            "Net balance",
+                            "Solde net",
                             style: TextStyle(
                                 fontWeight: FontWeight.w500,
                                 fontSize: 13,
@@ -167,7 +168,7 @@ class _StatsPageState extends State<StatsPage> {
                             height: 10,
                           ),
                           Text(
-                            "\$2446.90",
+                            "\MAD 2446.90",
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 25,

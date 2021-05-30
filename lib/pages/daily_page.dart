@@ -42,7 +42,7 @@ class _DailyPageState extends State<DailyPage> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        "Daily Transaction",
+                        "Transaction Quotidienne",
                         style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.bold,
@@ -206,7 +206,7 @@ class _DailyPageState extends State<DailyPage> {
                 Padding(
                   padding: const EdgeInsets.only(right: 80),
                   child: Text(
-                    "Total",
+                    "Totale",
                     style: TextStyle(
                         fontSize: 16,
                         color: black.withOpacity(0.4),
@@ -218,7 +218,7 @@ class _DailyPageState extends State<DailyPage> {
                 Padding(
                   padding: const EdgeInsets.only(top: 5),
                   child: Text(
-                    "\$1780.00",
+                    "\MAD 1780.00",
                     style: TextStyle(
                         fontSize: 20,
                         color: black,

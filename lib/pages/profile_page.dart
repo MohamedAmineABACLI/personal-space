@@ -9,9 +9,8 @@ class ProfilePage extends StatefulWidget {
 }
 
 class _ProfilePageState extends State<ProfilePage> {
-  TextEditingController _email =
-      TextEditingController(text: "abbie_wilson@gmail.com");
-  TextEditingController dateOfBirth = TextEditingController(text: "04-19-1992");
+  TextEditingController _email = TextEditingController(text: "amine@gmail.com");
+  TextEditingController dateOfBirth = TextEditingController(text: "01-01-1999");
   TextEditingController password = TextEditingController(text: "123456");
   @override
   Widget build(BuildContext context) {
@@ -84,7 +83,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                       shape: BoxShape.circle,
                                       image: DecorationImage(
                                           image: NetworkImage(
-                                              "https://images.unsplash.com/photo-1531256456869-ce942a665e80?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTI4fHxwcm9maWxlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"),
+                                              "https://media-exp1.licdn.com/dms/image/C4D03AQFcSSlvPCRGUA/profile-displayphoto-shrink_800_800/0/1605977538462?e=1625702400&v=beta&t=IlRXa8xdnS0H_2DTd3OQHrcn4rGcFPV_XlGk-tVJp68"),
                                           fit: BoxFit.cover)),
                                 ),
                               )
@@ -98,7 +97,7 @@ class _ProfilePageState extends State<ProfilePage> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              "Abbie Wilson",
+                              "ABACLI Mohamed Amine",
                               style: TextStyle(
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold,
@@ -108,7 +107,7 @@ class _ProfilePageState extends State<ProfilePage> {
                               height: 10,
                             ),
                             Text(
-                              "Credit score: 73.50",
+                              "Pointage de crédit: 73.50",
                               style: TextStyle(
                                   fontSize: 14,
                                   fontWeight: FontWeight.w500,
@@ -145,7 +144,7 @@ class _ProfilePageState extends State<ProfilePage> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "United Bank Asia",
+                                "CIH Bank",
                                 style: TextStyle(
                                     fontWeight: FontWeight.w500,
                                     fontSize: 12,
@@ -155,7 +154,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                 height: 10,
                               ),
                               Text(
-                                "\$2446.90",
+                                "\MAD 2446.90",
                                 style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     fontSize: 20,
@@ -170,7 +169,7 @@ class _ProfilePageState extends State<ProfilePage> {
                             child: Padding(
                               padding: const EdgeInsets.all(13.0),
                               child: Text(
-                                "Update",
+                                "Mettre à jour",
                                 style: TextStyle(color: white),
                               ),
                             ),
@@ -210,7 +209,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   height: 20,
                 ),
                 Text(
-                  "Date of birth",
+                  "Date de naissance",
                   style: TextStyle(
                       fontWeight: FontWeight.w500,
                       fontSize: 13,
@@ -222,13 +221,13 @@ class _ProfilePageState extends State<ProfilePage> {
                   style: TextStyle(
                       fontSize: 17, fontWeight: FontWeight.bold, color: black),
                   decoration: InputDecoration(
-                      hintText: "Date of birth", border: InputBorder.none),
+                      hintText: "Date de naissance", border: InputBorder.none),
                 ),
                 SizedBox(
                   height: 20,
                 ),
                 Text(
-                  "Date of birth",
+                  "Mot de passe",
                   style: TextStyle(
                       fontWeight: FontWeight.w500,
                       fontSize: 13,

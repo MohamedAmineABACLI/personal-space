@@ -12,7 +12,8 @@ class _CreatBudgetPageState extends State<CreatBudgetPage> {
   int activeCategory = 0;
   TextEditingController _budgetName =
       TextEditingController(text: "Grocery Budget");
-  TextEditingController _budgetPrice = TextEditingController(text: "\$1500.00");
+  TextEditingController _budgetPrice =
+      TextEditingController(text: "\MAD 1500.00");
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -45,7 +46,7 @@ class _CreatBudgetPageState extends State<CreatBudgetPage> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        "Create budget",
+                        "Créer un nouveau budget",
                         style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.bold,
@@ -63,7 +64,7 @@ class _CreatBudgetPageState extends State<CreatBudgetPage> {
           Padding(
             padding: const EdgeInsets.only(left: 20, right: 20, top: 30),
             child: Text(
-              "Choose category",
+              "Choisir la catégorie",
               style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.bold,
@@ -154,7 +155,7 @@ class _CreatBudgetPageState extends State<CreatBudgetPage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "budget name",
+                  "nom du budget",
                   style: TextStyle(
                       fontWeight: FontWeight.w500,
                       fontSize: 13,
@@ -166,7 +167,8 @@ class _CreatBudgetPageState extends State<CreatBudgetPage> {
                   style: TextStyle(
                       fontSize: 17, fontWeight: FontWeight.bold, color: black),
                   decoration: InputDecoration(
-                      hintText: "Enter Budget Name", border: InputBorder.none),
+                      hintText: "Entrer le nom du budget",
+                      border: InputBorder.none),
                 ),
                 SizedBox(
                   height: 20,
@@ -180,7 +182,7 @@ class _CreatBudgetPageState extends State<CreatBudgetPage> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            "Enter budget",
+                            "Entrer  le budget",
                             style: TextStyle(
                                 fontWeight: FontWeight.w500,
                                 fontSize: 13,
@@ -194,7 +196,7 @@ class _CreatBudgetPageState extends State<CreatBudgetPage> {
                                 fontWeight: FontWeight.bold,
                                 color: black),
                             decoration: InputDecoration(
-                                hintText: "Enter Budget",
+                                hintText: "Entrer le Budget",
                                 border: InputBorder.none),
                           ),
                         ],

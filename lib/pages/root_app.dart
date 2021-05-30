@@ -25,6 +25,7 @@ class _RootAppState extends State<RootApp> {
 
   @override
   void initState() {
+    // ignore: todo
     // TODO: implement initState
     super.initState();
   }
